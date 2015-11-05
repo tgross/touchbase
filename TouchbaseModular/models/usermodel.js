@@ -87,7 +87,7 @@ User.create = function(params, callback) {
             email: params.login.email,
             administrator: false,
             hasPicture: false,
-            emailVerified: false
+            emailVerified: true
         },
         timeTracker: {
             registerTime: currentTime,
